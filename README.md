@@ -28,6 +28,7 @@ Trainable params: 35,674
 Non-trainable params: 0
 ----------------------------------------------------------------
 ```
+The pre-trained model can be found [here](https://drive.google.com/file/d/1dejUwoN_97eK4k7TXo6OnKH6QrOg4Jpx/view?usp=sharing)
 
 ## Results
 - **Training and Testing losses**
@@ -42,5 +43,5 @@ As observed in the plots above, the model has converged with an accuracy of **67
 The testing accuracy can be increased by about **(1.5-2.0)%** upto **~67%** but only at the cost of the model overfitting the training data. I analysed the results for 300 epochs with the same hyperparameters and the training accuracy increased upto **73%** but there was a clear divergence observed between the training and testing loss at the latter end of the training.
 
 ## To-Do
-- [ ] Try using a point cloud based approach.
-I am not working on this full-time so I don't really know when I'll get to do this.  
+- [ ] Try using a point cloud based approach.<br>
+I am not actively working on this, it was more like a side project so I don't really know when I'll get to do this.  
